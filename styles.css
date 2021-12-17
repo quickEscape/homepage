@@ -88,11 +88,14 @@ body {
 .contact-info__block {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex: 1 1 40%;
 }
 
 .contact-info__block--center {
     justify-content: center;
+    align-items: center;
+    flex-basis: 68%;
 }
 
 .contact-info__item {
