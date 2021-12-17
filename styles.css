@@ -66,6 +66,10 @@ body {
   .experiences {
       margin-right: 0;
   }
+
+  .skills__text br {
+    display: none;
+  }
 }
 
 .contact-info__header,
